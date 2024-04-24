@@ -18,6 +18,6 @@ class Openfast(bOpenfast):
             description="Build ROSCO controller alongside OpenFAST")
 
     depends_on("rosco", when="+rosco")
-    depends_on("netcdf-c", when="@fsi")
+    depends_on("netcdf-c@4.7.4", when="@fsi")
     depends_on("yaml-cpp@0.6.0:0.6.3", when="+cxx")
 
