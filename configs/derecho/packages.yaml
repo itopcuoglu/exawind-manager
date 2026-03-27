@@ -1,7 +1,7 @@
 packages:
   cray-mpich:
     externals:
-    - spec: cray-mpich@8.1.29 %gcc
+    - spec: cray-mpich@8.1.29 %gcc@12.4.0
       prefix: /opt/cray/pe/mpich/8.1.29/ofi/gnu/12.3
       extra_attributes:
         environment:
