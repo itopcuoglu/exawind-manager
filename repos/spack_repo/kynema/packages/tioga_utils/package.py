@@ -10,9 +10,9 @@ from spack_repo.kynema.packages.ctest_package.package import *
 
 
 class TiogaUtils(CtestPackage):
-    git = "https://github.com/Exawind/tioga_utils.git"
+    git = "https://github.com/kynema/tioga_utils.git"
 
-    version("exawind", branch="exawind", submodules=True)
+    version("kynema", branch="main", submodules=True)
 
     depends_on("c", type="build")
     depends_on("cxx", type="build")
